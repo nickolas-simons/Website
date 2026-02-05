@@ -33,7 +33,7 @@ A Sci-Fi card battler roguelike with mechanics influenced by Slay the Spire, Mag
 
 ![Card System Design Loop](/assets/405gif3.gif)
 
-<video width="800" height="353" controls>
+<video width="1280" height="720" controls>
   <source src="/assets/405_Demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
