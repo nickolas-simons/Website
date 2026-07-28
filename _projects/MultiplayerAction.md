@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Multiplayer Action Game"
-summary: "Solo Developer"
+title:  "Action Game"
+summary: "UE5,Solo, Multiplayer"
 preview: /assets/Untitled_preview.png
 background: /assets/Untiled_TitleImage.png
+location: "Personal"
 order: 4
 ---
 

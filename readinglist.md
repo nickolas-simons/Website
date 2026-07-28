@@ -4,14 +4,22 @@ title: "Reading List"
 permalink: /reading-list/
 ---
 
-A running list of books I've read or am currently reading, mostly related to game design, engineering, and craft.
+A running list of books I've read or am currently reading, mostly related to C++ or games engineering.
 
 **Currently Reading:**
-- *Title Here* — Author Name
+- *C++ Software Design* — Klaus Iglberger
 
 **Read:**
-- *Title Here* — Author Name
-- *Title Here* — Author Name
+- *Multiplayer Game Programming* — Joshua Glazer, Sanjay Madhav
+- *Effective Modern C++* — Scott Meyers
+- *Design Patterns* — Gamma et al
+- *Effective STL* — Scott Meyers
+- *More Effective C++* — Scott Meyers
+- *Effective C++* — Scott Meyers
+- *Game Engine Architecture* — Jason Gregory
+
 
 **Up Next:**
-- *Title Here* — Author Name
+- *Game Programming in C++* — Sanjay Madhav
+- *Modern CMake for C++* — Rafał Świdziński
+- *C++ Concurrency in Action* — Anthony Williams

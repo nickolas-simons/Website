@@ -5,11 +5,21 @@
     {% cycle 'add row' : '<div class="row">', '', '' %}
         <div class="column column-33">
             <div class="preview-panel">
-                <a href="{{ post.url | prepend: site.baseurl }}">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="preview-image-wrap">
                     <img src="{{ post.preview }}">
+                    <div class="post-title-row">
+                        <div class="post-title">{{ post.title }}</div>
+                        {% if post.location %}
+                            <span class="location-button">{{ post.location }}</span>
+                        {% endif %}
+                    </div>
+                    <div class="post-summary">
+                        {% assign summary_tokens = post.summary | split: "," %}
+                        {% for token in summary_tokens %}
+                            <span class="summary-token">{{ token }}</span>
+                        {% endfor %}
+                    </div>
                 </a>
-                <div class="post-title">{{ post.title }}</div>
-				<div class="post-summary">{{ post.summary }}</div>
            </div>
         </div>
 {% cycle 'end row' : '', '', '</div>' %}

@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Card Battler"
-summary: "Programmer"
+summary: "UE5,Team,Programmer" 
 preview: /assets/405_preview.png
 background: /assets/405_TitleCard.png
 order: 3
+location: "Class"
 ---
 
 ![Title Image](/assets/405_TitleCard.png)

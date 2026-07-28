@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Othello Game"
-summary: "Solo Developer"
+summary: "Haskell, Python"
 preview: /assets/othello_preview.png
 background: /assets/Othello_Title.png
+location: class
 order: 6
 ---
 

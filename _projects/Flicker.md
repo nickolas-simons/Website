@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Flicker"
-summary: "Solo Developer"
+summary: "Jam,UE5,Solo"
 preview: /assets/flicker_preview.png
 background: /assets/flicker_banner.png
 order: 5
+location: personal
 itchio_embed: 3985332
 itchio_url: https://nickolas-simons.itch.io/flicker
 ---
