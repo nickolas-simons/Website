@@ -3,7 +3,7 @@ layout: post
 title:  "Action Game"
 summary: "UE5,Solo,Multiplayer"
 preview: /assets/Untitled_preview.png
-background: /assets/405_background.png
+background: "/assets/background.avif"
 location: "Personal"
 order: 4
 ---

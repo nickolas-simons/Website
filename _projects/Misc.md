@@ -3,7 +3,7 @@ layout: post
 title:  "Misc"
 summary: ""
 preview: /assets/JunkDrawer/junkdrawer_preview.png
-background: /assets/405_background.png
+background: "/assets/background.avif"
 order: 7
 ---
 

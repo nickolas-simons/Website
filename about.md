@@ -2,7 +2,7 @@
 layout: page
 title: "About Me"
 permalink: /about/
-background: /assets/405_background.png
+background: "/assets/background.avif"
 ---
 
 ![Picture 1](/assets/portrait.JPG)

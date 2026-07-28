@@ -2,7 +2,7 @@
 layout: page
 title: "Resume"
 permalink: /resume/
-background: /assets/405_background.png
+background: "/assets/background.avif"
 ---
 
 Here's my resume:
