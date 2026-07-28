@@ -2,6 +2,7 @@
 layout: page
 title: "Reading List"
 permalink: /reading-list/
+background: /assets/405_background.png
 ---
 
 A running list of books I've read or am currently reading, mostly related to C++ or games engineering.

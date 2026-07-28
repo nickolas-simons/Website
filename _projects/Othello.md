@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Othello Game"
-summary: "Haskell, Python"
+summary: "Haskell,Python"
 preview: /assets/othello_preview.png
-background: /assets/Othello_Title.png
-location: class
+background: /assets/405_background.png
+location: "Class"
 order: 6
 ---
 
@@ -16,9 +16,9 @@ A final project developed for CS340: Programming Patterns and Paradigms, this is
 **Time:** April 2022
 
 **Key Features:**
-- **Haskell Development:**  
+- **Haskell Development:**
    Designed and implemented the game using Haskell, applying functional programming concepts.
-- **AI Opponent:**  
+- **AI Opponent:**
    Implemented a computer-controlled opponent using mini-max algorithm on a pruned game tree, allowing for strategic AI gameplay. (i can't beat it anyway so that must mean something)
 
 <video width="640" height="360" controls>

@@ -1,16 +1,16 @@
 /**
- * Design tokens — "engine viewport" theme
+ * Design tokens — "engine viewport" theme (modernized)
  */
 :root {
-    --bg: #14171c;
-    --surface: #1a1e25;
-    --surface-hover: #20252d;
-    --border: #2a2f38;
-    --text: #e8eaed;
-    --text-dim: #9aa4b2;
-    --accent: #6ee7c8;
-    --accent-warm: #ff8a3d;
-    --font-display: 'IBM Plex Mono', 'Courier New', monospace;
+    --bg: #0f1216;
+    --surface: #161a21;
+    --surface-hover: #1d222b;
+    --border: #2e343f;
+    --text: #eef0f3;
+    --text-dim: #b6c0cc;
+    --accent: #7ef4d6;
+    --accent-warm: #ff9f5a;
+    --font-display: 'Manufacturing Consent', 'Cinzel', 'Times New Roman', serif;
     --font-body: 'Inter', 'Helvetica Neue', sans-serif;
 }
 
@@ -33,12 +33,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     color: var(--text);
-    text-transform: uppercase;
     letter-spacing: -.02em;
 }
 
 a {
     color: var(--accent);
+    transition: color .2s ease;
 }
 
 a:focus,

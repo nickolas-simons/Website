@@ -15,9 +15,9 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-	background-color: $color-primary;
+	background: linear-gradient(135deg, $color-primary, darken($color-primary, 12%));
 	border: .1rem solid $color-primary;
-	border-radius: .4rem;
+	border-radius: .6rem;
 	color: $color-initial;
 	cursor: pointer;
 	display: inline-block;
@@ -30,13 +30,13 @@ input[type='submit'] {
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
+	transition: filter .2s ease, box-shadow .2s ease;
 	white-space: nowrap;
 
 	&:focus,
 	&:hover {
-		background-color: $color-secondary;
-		border-color: $color-secondary;
-		color: $color-initial;
+		filter: brightness(1.1);
+		box-shadow: 0 0 1.2rem rgba($color-primary, 0.4);
 		outline: 0;
 	}
 
@@ -46,20 +46,22 @@ input[type='submit'] {
 
 		&:focus,
 		&:hover {
-			background-color: $color-primary;
-			border-color: $color-primary;
+			filter: none;
+			box-shadow: none;
 		}
 	}
 
 	&.button-outline {
-		background-color: transparent;
+		background: transparent;
 		color: $color-primary;
 
 		&:focus,
 		&:hover {
-			background-color: transparent;
+			background: transparent;
 			border-color: $color-secondary;
 			color: $color-secondary;
+			filter: none;
+			box-shadow: none;
 		}
 
 		&[disabled] {
@@ -73,15 +75,17 @@ input[type='submit'] {
 	}
 
 	&.button-clear {
-		background-color: transparent;
+		background: transparent;
 		border-color: transparent;
 		color: $color-primary;
 
 		&:focus,
 		&:hover {
-			background-color: transparent;
+			background: transparent;
 			border-color: transparent;
 			color: $color-secondary;
+			filter: none;
+			box-shadow: none;
 		}
 
 		&[disabled] {

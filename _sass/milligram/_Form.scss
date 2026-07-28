@@ -22,15 +22,17 @@ select {
 	appearance: none; // Removes awkward default styles on some inputs for iOS
 	background-color: transparent;
 	border: .1rem solid $color-quaternary;
-	border-radius: .4rem;
+	border-radius: .6rem;
 	box-shadow: none;
 	box-sizing: inherit; // Forced to replace inherit values of the normalize.css
 	height: 3.8rem;
 	padding: .6rem 1.0rem; // The .6rem vertically centers text on FF, ignored by Webkit
+	transition: border-color .2s ease, box-shadow .2s ease;
 	width: 100%;
 
 	&:focus {
 		border-color: $color-primary;
+		box-shadow: 0 0 0 .3rem rgba($color-primary, 0.15);
 		outline: 0;
 	}
 }
