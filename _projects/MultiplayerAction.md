@@ -2,8 +2,9 @@
 layout: post
 title:  "Multiplayer Action Game"
 summary: "Solo Developer"
-date:   2025-01-01 00:00:03
 preview: /assets/Untitled_preview.png
+background: /assets/Untiled_TitleImage.png
+order: 4
 ---
 
 ![Title Image](/assets/Untiled_TitleImage.png)

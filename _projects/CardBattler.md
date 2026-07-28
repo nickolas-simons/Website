@@ -2,8 +2,9 @@
 layout: post
 title:  "Card Battler"
 summary: "Programmer"
-date:   2025-01-01 00:00:04
 preview: /assets/405_preview.png
+background: /assets/405_TitleCard.png
+order: 3
 ---
 
 ![Title Image](/assets/405_TitleCard.png)
@@ -41,6 +42,5 @@ A Sci-Fi card battler roguelike with mechanics influenced by Slay the Spire, Mag
 ![System Loop Image](/assets/405_Loop.png)
 
 ![Card System Design Loop](/assets/405_CardSystemDesignLoop3.png)
-
 
 

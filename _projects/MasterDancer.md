@@ -2,8 +2,9 @@
 layout: post
 title:  "Master Dancer"
 summary: "Programmer"
-date:   2025-01-01 00:00:06
 preview: /assets/md_preview.png
+background: /assets/MD_TitleCard.png
+order: 1
 ---
 
 ![Title Image](/assets/MD_TitleCard.png)
@@ -68,5 +69,4 @@ Project operating through stu/dio-a student led work-for-hire game development s
 ![MD](/assets/MD_Sizzle3.png)
 
 ![MD](/assets/MD_Sizzle4.png)
-
 

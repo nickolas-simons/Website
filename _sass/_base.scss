@@ -1,4 +1,52 @@
 /**
+ * Design tokens — "engine viewport" theme
+ */
+:root {
+    --bg: #14171c;
+    --surface: #1a1e25;
+    --surface-hover: #20252d;
+    --border: #2a2f38;
+    --text: #e8eaed;
+    --text-dim: #9aa4b2;
+    --accent: #6ee7c8;
+    --accent-warm: #ff8a3d;
+    --font-display: 'IBM Plex Mono', 'Courier New', monospace;
+    --font-body: 'Inter', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    background: var(--bg);
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-dim);
+    background-color: var(--bg);
+    background-image:
+        linear-gradient(var(--border) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+    background-size: 48px 48px;
+    background-attachment: fixed;
+    background-position: -1px -1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: -.02em;
+}
+
+a {
+    color: var(--accent);
+}
+
+a:focus,
+a:hover {
+    color: var(--accent-warm);
+}
+
+/**
  * Icons
  */
 .icon {
@@ -10,7 +58,7 @@
         vertical-align: middle;
 
         path {
-            fill: $color-secondary;
+            fill: var(--text-dim);
         }
     }
 }

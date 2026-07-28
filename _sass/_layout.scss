@@ -1,21 +1,107 @@
 /**
- * Site header
+ * Global grid texture (site background)
  */
- .wrapper .container {
+body {
+    background-color: $color-initial;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-attachment: fixed;
+}
+
+/**
+ * Mixin-like shared panel styling. Used for the content panel, header,
+ * footer, and info block. All share the same max-width as the preview
+ * grid container so they visually line up as one consistent column.
+ */
+$panel-max-width: 80rem;
+
+%themed-panel {
+    display: block;
+    width: 100%;
+    max-width: $panel-max-width;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgba($color-tertiary, 0.94);
+    color: $color-secondary;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.2rem 1.5rem rgba(0, 0, 0, 0.2);
+
+    h1, h2, h3, h4, h5, h6,
+    p, li, td, th {
+        color: $color-secondary;
+    }
+
+    a {
+        color: $color-primary;
+
+        &:focus,
+        &:hover {
+            color: darken($color-primary, 15%);
+        }
+    }
+}
+
+/**
+ * Page wrapper carries the per-project background image (set via
+ * `background:` front matter) so it bleeds behind the header and footer,
+ * not just the content panel.
+ */
+.wrapper {
+    position: relative;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.wrapper .container {
     max-width: 80rem;
 }
 
+/**
+ * Site header — panel hugs the logo/nav only, centered, so the backdrop
+ * shows through above/beside it instead of a full-width bar.
+ */
 .site-header {
     text-align: center;
+    padding: 1rem 0 2rem;
+}
+
+.header-panel {
+    @extend %themed-panel;
+    text-align: center;
+    border-bottom: 0.4rem solid $color-primary;
+    padding: 0.75rem -0.25rem;
+}
+
+.site-title img {
+    vertical-align: middle;
 }
 
 .navbar {
     display: block;
 }
 
+.navbar ul {
+    margin-bottom: 0;
+}
+
 .nav-item {
     display: inline-block;
-    padding: 1rem;
+    margin-bottom: 0;
+    padding: 0.5rem 1rem 0;
+}
+
+/**
+ * Content panel
+ */
+.post {
+    @extend %themed-panel;
+    position: relative;
+    border-top: 0.4rem solid $color-primary;
+    padding: 2rem;
 }
 
 .post-nav {
@@ -33,6 +119,17 @@
 }
 
 /**
+ * itch.io embed
+ */
+.itch-embed {
+    margin-bottom: 1.5rem;
+
+    iframe {
+        max-width: 100%;
+    }
+}
+
+/**
  * override column size for mobile
  */
 @media (max-width: 40.0rem) {
@@ -43,26 +140,43 @@
 }
 
 /**
- * Site footer
+ * Site footer — panels hug their own text, centered, instead of full-width bars.
  */
 .site-footer {
+    text-align: center;
     margin: 1rem 0;
     padding: 1rem 0;
 	font-size: 12px;
 }
 
 .site-footer-home {
-    border-top: 1px solid $grey-color-light;
+    text-align: center;
     margin: 1rem 0;
     padding: 1rem 0;
 	font-size: 0.75em;
 }
 
+.footer-panel {
+    @extend %themed-panel;
+    text-align: center;
+    padding: 0.6rem 1.5rem;
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
 .site-info {
-    border-top: 1px solid $grey-color-light;
-	border-bottom: 1px solid $grey-color-light;
-    margin: 1rem 0;
-    padding: 1rem 0;
+    text-align: center;
+    margin: 0rem 0;
+    padding: 0rem 0;
+}
+
+.info-panel {
+    @extend %themed-panel;
+    text-align: left;
+    padding: 1.5rem 2rem;
+    border-top: 0.3rem solid $color-primary;
 }
 
 .contact-list,
@@ -75,11 +189,12 @@
  * Misc
  */
 .preview-panel {
+    @extend %themed-panel;
     padding: 1rem;
-    box-sizing: border-box;
-    border: 1px solid $color-initial;
-    
+    margin-bottom: 2rem;
+    border-top: 0.3rem solid $color-primary;
+
     &:hover {
-        border: 1px solid $grey-color-light;
+        box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.3);
     }
 }

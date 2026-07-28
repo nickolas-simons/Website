@@ -2,8 +2,11 @@
 layout: post
 title:  "Flicker"
 summary: "Solo Developer"
-date:   2025-01-01 00:00:02
 preview: /assets/flicker_preview.png
+background: /assets/flicker_banner.png
+order: 5
+itchio_embed: 3985332
+itchio_url: https://nickolas-simons.itch.io/flicker
 ---
 
 ![Title Image](/assets/flicker_banner.png)
@@ -25,7 +28,15 @@ Submission for the 7 day 2025 Epic Megajam. Entered for the 'One Man Army' and '
    - Animation for character baked from new locomotor plugin introduced in UE 5.6 (excluding additive layers).
    - Fire effects are created using a blend based upon sine of a signed distance field multiplied with the time since burn activation.
 
-See the [itch.io page](https://itch.io/jam/2025-epic-megajam/rate/3985332 "flicker itch page") to play.
+{% if page.itchio_embed %}
+<div class="itch-embed">
+  <iframe frameborder="0" src="https://itch.io/embed/{{ page.itchio_embed }}?linkback=true" width="552" height="167">
+    <a href="{{ page.itchio_url }}">Flicker by nickolas-simons</a>
+  </iframe>
+</div>
+{% endif %}
+
+See the [itch.io page]({{ page.itchio_url }} "flicker itch page") to play.
 
 ![Flicker screenshot 1](/assets/flicker1.png)
 ![Flicker screenshot 2](/assets/flicker2.png)

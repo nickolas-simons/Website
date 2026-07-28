@@ -2,8 +2,9 @@
 layout: post
 title:  "Othello Game"
 summary: "Solo Developer"
-date:   2025-01-01 00:00:01
 preview: /assets/othello_preview.png
+background: /assets/Othello_Title.png
+order: 6
 ---
 
 ![Title Image](/assets/Othello_Title.png)

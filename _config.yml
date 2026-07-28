@@ -8,8 +8,24 @@ linkedin_url: "https://www.linkedin.com/in/nickolas-simons/"
 github_username: nickolas-simons
 twitter_username: IINGLSII
 bsky_username: nick-simons
+itchio_url: "https://nickolas-simons.itch.io/"
 footer_text: "This site uses <a href='https://github.com/gamingportfolio/urban-theme-portfolio'>urban-theme (portfolio)</a>."
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Front-page project ordering: lower `order` values appear first.
+# Any project without an explicit `order:` in its front matter falls back to this.
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: post
+      order: 999

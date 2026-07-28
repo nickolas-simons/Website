@@ -2,8 +2,9 @@
 layout: post
 title:  "VRchaeology"
 summary: "Programmer"
-date:   2025-01-01 00:00:05
 preview: /assets/VRch_preview.png
+background: /assets/vrch_banner.png
+order: 2
 ---
 
 ![Title Image](/assets/vrch_banner.png)

@@ -6,3 +6,4 @@ group :jekyll_plugins do
 end
 
 gem "webrick"
+gem "liquid", "~> 4.0.4"

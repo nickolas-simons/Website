@@ -1,4 +1,7 @@
-{% for post in site.posts %}
+{% if site.projects %}
+  {% assign sorted_posts = site.projects | sort: 'title' | sort: 'order' %}
+{% endif %}
+{% for post in sorted_posts %}
     {% cycle 'add row' : '<div class="row">', '', '' %}
         <div class="column column-33">
             <div class="preview-panel">
