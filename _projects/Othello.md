@@ -22,7 +22,11 @@ A final project developed for CS340: Programming Patterns and Paradigms, this is
 - **AI Opponent:**
    Implemented a computer-controlled opponent using mini-max algorithm on a pruned game tree, allowing for strategic AI gameplay. (i can't beat it anyway so that must mean something)
 
-<video width="640" height="360" controls>
-  <source src="/assets/OthelloDemo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="video-max-wrapper" style="width: 100%; max-width: 800; margin: 0 auto; aspect-ratio: 16 / 9;">
+  <video 
+    controls 
+    style="width: 100%; height: 100%; display: block; object-fit: contain;">
+    <source src="/assets/OthelloDemo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>

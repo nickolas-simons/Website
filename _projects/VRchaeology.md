@@ -61,4 +61,15 @@ Project operating through stu/dio-a student led work-for-hire game development s
 
 **Gallery:**
 
-<iframe width="720" height="400" src="https://www.youtube.com/embed/m_5ZPABhV64" title="VRchaeology Gameplay Edit" frameborder="0" allow="web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<div class="video-max-wrapper" style="width: 100%; max-width: 800px; margin: 0 auto; aspect-ratio: 16 / 9;">
+  <iframe 
+    src="https://www.youtube.com/embed/m_5ZPABhV64" 
+    title="VRchaeology Gameplay Edit" 
+    frameborder="0" 
+    allow="web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen=""
+    style="width: 100%; height: 100%; display: block;">
+  </iframe>
+</div>
+

@@ -46,4 +46,15 @@ A Sci-Fi card battler roguelike with mechanics influenced by Slay the Spire, Mag
 
 **Gallery:**
 
-<iframe width="720" height="400" src="https://www.youtube.com/embed/sKT5BUMKPfw?si=iOmGutXlTc-35REO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay true; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-max-wrapper" style="width: 100%; max-width: 720px; margin: 0 auto; aspect-ratio: 16 / 9;">
+  <iframe 
+    src="https://www.youtube.com/embed/sKT5BUMKPfw?si=iOmGutXlTc-35REO" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay true; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen
+    style="width: 100%; height: 100%; display: block;">
+  </iframe>
+</div>
+
