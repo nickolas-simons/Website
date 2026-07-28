@@ -3,6 +3,7 @@ layout: post
 title:  "VRchaeology"
 summary: "UE5,Team,Programmer"
 preview: /assets/VRch_preview.png
+image: /assets/VRch_preview.png
 location: "stu/dio"
 background: /assets/vrch_pit.png
 order: 2

@@ -3,6 +3,7 @@ layout: post
 title:  "Master Dancer"
 summary: "UE5,Team,Programmer"
 preview: /assets/md_preview.png
+image: /assets/md_preview.png
 location: "stu/dio"
 background: /assets/MD_Sizzle4.png
 order: 1

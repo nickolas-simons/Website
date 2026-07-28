@@ -3,6 +3,7 @@ layout: post
 title:  "Flicker"
 summary: "Jam,UE5,Solo"
 preview: /assets/flicker_preview.png
+image: /assets/flicker_preview.png
 background: /assets/flicker2.png
 order: 5
 location: "Personal"

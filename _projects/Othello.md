@@ -3,6 +3,7 @@ layout: post
 title:  "Othello Game"
 summary: "Haskell,Python"
 preview: /assets/othello_preview.png
+image: /assets/othello_preview.png
 background: "/assets/background.avif"
 location: "Class"
 order: 6

@@ -3,6 +3,7 @@ layout: post
 title:  "Overtime"
 summary: "Jam,Unity,Team, Programmer, Art"
 preview: /assets/overtime_preview.png
+image: /assets/overtime_preview.png
 background: /assets/overtime1.png
 order: 4
 location: "Personal"
