@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Flicker"
-summary: "Jam,UE5,Solo"
+summary: "UE5,C++,Jam,Solo"
 preview: /assets/flicker_preview.png
 image: /assets/flicker_preview.png
 background: /assets/flicker2.png

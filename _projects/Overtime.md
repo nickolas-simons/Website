@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Overtime"
-summary: "Jam,Unity,Team, Programmer, Art"
+summary: "Unity,C#,Jam,Team, Programmer, Art"
 preview: /assets/overtime_preview.png
 image: /assets/overtime_preview.png
 background: /assets/overtime1.png

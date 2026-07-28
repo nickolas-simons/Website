@@ -266,6 +266,11 @@ $panel-max-width: 80rem;
     line-height: 1.3;
 }
 
+.summary-token--language {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
 .location-button {
     flex-shrink: 0;
     font-family: var(--font-body);

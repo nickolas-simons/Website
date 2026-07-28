@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Card Battler"
-summary: "UE5,Team,Programmer"
+summary: "UE5,C++,Team,Programmer"
 preview: /assets/405_preview.png
 image: /assets/405_preview.png
 background: /assets/405_background.png

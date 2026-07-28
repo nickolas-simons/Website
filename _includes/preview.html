@@ -15,8 +15,13 @@
                     </div>
                     <div class="post-summary">
                         {% assign summary_tokens = post.summary | split: "," %}
+                        {% assign language_tokens = "UE5,UE4,Unity,Unreal Engine,Haskell,Python,C++,C#,JavaScript" | split: "," %}
                         {% for token in summary_tokens %}
-                            <span class="summary-token">{{ token }}</span>
+                            {% if language_tokens contains token %}
+                                <span class="summary-token summary-token--language">{{ token }}</span>
+                            {% else %}
+                                <span class="summary-token">{{ token }}</span>
+                            {% endif %}
                         {% endfor %}
                     </div>
                 </a>

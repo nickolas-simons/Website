@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "VRchaeology"
-summary: "UE5,Team,Programmer"
+summary: "UE5,C++,Team,Programmer"
 preview: /assets/VRch_preview.png
 image: /assets/VRch_preview.png
 location: "stu/dio"

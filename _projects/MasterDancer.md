@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Master Dancer"
-summary: "UE5,Team,Programmer"
+summary: "UE5,C++,Team,Programmer"
 preview: /assets/md_preview.png
 image: /assets/md_preview.png
 location: "stu/dio"
