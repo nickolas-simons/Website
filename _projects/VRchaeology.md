@@ -5,7 +5,7 @@ summary: "UE5,C++,Team,Programmer"
 preview: /assets/VRch_preview.png
 image: /assets/VRch_preview.png
 location: "stu/dio"
-background: /assets/vrch_pit.png
+background: /assets/vrch_background.png
 order: 2
 ---
 
