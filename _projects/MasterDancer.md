@@ -42,7 +42,7 @@ Project operating through stu/dio-a student led work-for-hire game development s
 - **Music Roundabout**
    - A game focused on gentle, precise music, where the player must gently activate notes according to music progression.
    - Utilizes Quartz and Meta Sounds for quantization of music timing.
-      - Developed a data-driven tooling for level authoring.
+   - Developed data-driven tooling for level authoring.
 
 - **Final Dance**
    - A dance visualization game where the player creates a sculpture using the movement principles of the first two games
