@@ -5,7 +5,7 @@ summary: "UE5,C++,Team,Programmer"
 preview: /assets/md_preview.png
 image: /assets/md_preview.png
 location: "stu/dio"
-background: /assets/MD_Sizzle4.png
+background: /assets/md_background.png
 order: 1
 ---
 
@@ -14,7 +14,8 @@ order: 1
 **Overview:**
 In Master Dancer, you meet the famous dancer Loïe Fuller, the first to integrate technology into modern dance. As a player, you engage in action games to learn her movement principles and, guided by Virtual Loïe, explore her world. You will use modern VR technology to create your own unique dance, becoming a Master Dancer yourself!
 
-Project operating through stu/dio-a student led work-for-hire game development studio at the University of Illinois. Project funded by the Center of Innovation Technology and Learning and sponsored by Music Director and Co-Director of Undergraduate Education John Toenjes.
+Project operating through stu/dio-a student led work-for-hire game development studio at the University of Illinois. Project funded by the Center of Innovation Technology and Learning and sponsored by Music Director and Co-Director of Undergraduate Education John Toenjes.  
+[learn more](https://news.illinois.edu/illinois-dance-professor-creates-virtual-reality-dance-game-about-modern-dance-pioneer-loie-fuller/ "learn more")
 
 ![Rhythm Minigame System Overview](/assets/md_gif3.gif)
 
