@@ -18,19 +18,27 @@ Project operating through stu/dio-a student led work-for-hire game development s
 
 **Platform/Engine:** Unreal Engine 5 for PCVR platforms
 
-**Team Structure:**
-   12 Members:
-   - 1 Project Manager
-   - 4 Programmers
-   - 1 Designer
-   - 4 Artists
-   - 1 Sound Designer
-   - 1 Music Composer
+**Credits:**  
+* **Sponsor:** Dr. Laura Shackelford
+* **Co-PI (NSF Grant):** Dr. David Wen-hau Huang
+* **Associate Producer:** Sepehr Vaez Afshar
+* **Project Manager:** Gabriel Wozniak
+* **Additional Project Management Support:** Om Mistry, Pranav Shah
+* **Programming:** Anish Gupta, Praneeth Rangamudri, Nick Simons, Aashish Subramanian
+* **Previous Programming:** Zach Krauter, Ezra Schur, Gloria Xiao, Weijia “Charlie” Zhang
+* **Design:** Madison Rosenberger
+* **3D Art:** Nancy “Nan” Kang, Dominic Larrieu, Xiaoxu “Johnny” Lyu, Yiwen “Tiffany” Wu
+* **Additional 3D Art Support:** Karan Ganesh, Mengzhen Yu
+* **2D Art:** Synthia Cao, Pengkun “Daniel” Mao, Ruoheng Yang
+* **Music:** Adrian Pawlikowski
+* **Sound Design:** Aubree Gray
+* **Voice Acting:** Olive Wang
+* **Archaeology Content Support:** Emma Verstraete, Alexandra Zachwieja
 
-**My Work:**
+**Highlighted Contributions:**
 - **Code Review Integration**
    - Integrated Perforce's Helix Swarm code review tool into developer pipeline.
-   - Migrated project to trunk-based development workflow
+   - Migrated project to trunk-based development workflow.
 
 ![Quest System Technical Design Document](/assets/QuestSystem.drawio.png)
 
@@ -39,10 +47,12 @@ Project operating through stu/dio-a student led work-for-hire game development s
 ![Quest and Action Signifier System in Use](/assets/vr_quest_actionsignifiers.gif)
 - **Quest and Action Signifier System**
    - Manages task templates and simple level scripting logic for the player, allowing designers to easily add action prompts and tasks to streamline level scripting and user experience.
+   - Directs player progression and guidance mechanisms for all 8 labs.
 
 ![Dialogue Subtitle System](/assets/vr_subtitle.gif)
 - **Dialogue Subtitle System**
    - Inspired by Half-Life Alyx, implemented system for tracking and managing dialogue subtitles to their sources within 3D space.
+   - Integrates with quest system to provide prompts and additional guidance to the player for tasks.
    - Migrated and extended from Master Dancer system.
 
 ![Stratigraphy System Technical Design Document](/assets/StratigraphyTDD.drawio.png)
@@ -51,8 +61,8 @@ Project operating through stu/dio-a student led work-for-hire game development s
 
 ![Stratigraphy Layer Analysis Demo](/assets/VRchVideo_2.gif)
 - **Digging and Stratigraphy Framework**
-   - System allowing user to scrap and dig into surfaces using tools within the level to perform tasks like excavation and layer stratigraphy analysis.
-   - Developed method for monitoring level progression in script through compute shader.
+   - Implemented system allowing user to scrap and dig into surfaces using tools within the level to perform tasks like excavation and layer stratigraphy analysis.
+   - Developed method for monitoring player excavation progress in script through a compute shader.
 
 ![OpenXR Hand Tracking in Action](/assets/vr_handtracking.gif)
 - **OpenXR Hand Tracking and Gesture Detection for Quest Link**

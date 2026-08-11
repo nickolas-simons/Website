@@ -23,7 +23,13 @@ Submission for the 4 day 2026 GMTK Jam. You play as a boss secretly rewinding th
 **Development Details:**
    - **Platform/Engine:** Developed on Unity5 for Web/Windows
    - **Time:** 4 days
-   - **Team:** 4 hybrid developers
+
+**Credits:**
+* gwozniak
+* giovza
+* nsimons (me)
+* pajamasoft
+
 
 **Notable Contributions:**
 - Created all environment art, and UI animations.

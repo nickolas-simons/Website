@@ -18,20 +18,20 @@ A Sci-Fi card battler roguelike with mechanics influenced by Slay the Spire, Mag
 
 **Time:** Spring Semester 2024
 
-**Team Structure:**
-   - 1 Project Manager
-   - 2 Programmers
-   - 2 Artists
-   - 1 Designers
+**Credits:**
+* **Project Manager:** Tom Jiang
+* **Programming:** Nick Simons, Eli Lo
+* **Design:** Clea Sharp
+* **Art:** Yiqi Xiao
 
-**My Work:**
+**Highlighted Contributions:**
 - Developed core turn-based card combat.
 
 ![Turn-Based Combat Loop](/assets/405gif1.gif)
 
 - Implemented lightweight ability and effect system inspired by Epic's Gameplay Ability System.
 - Developed card type and resource restriction systems.
-   - Item abilities have minimum resource requirements
+   - Item abilities have minimum resource requirements.
 
 ![Ability and Resource System](/assets/405gif3.gif)
 
