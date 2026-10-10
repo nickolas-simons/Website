@@ -2,14 +2,14 @@
 layout: post
 title:  "Othello Game"
 summary: "Haskell,Python"
-preview: /assets/othello_preview.png
-image: /assets/othello_preview.png
+preview: /assets/othello_preview.webp
+image: /assets/othello_preview_og.jpg
 background: "/assets/background.avif"
 location: "Class"
 order: 6
 ---
 
-![Title Image](/assets/Othello_Title.png)
+![Title Image](/assets/Othello_Title.webp)
 
 **Overview:**
 A final project developed for CS340: Programming Patterns and Paradigms, this is an ASCII-based Othello game created in Haskell. It features a computer-controlled opponent and supports variable board sizes.

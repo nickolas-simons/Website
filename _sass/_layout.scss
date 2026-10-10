@@ -55,14 +55,43 @@ $panel-max-width: 80rem;
 /**
  * Page wrapper carries the per-project background image (set via
  * `background:` front matter) so it bleeds behind the header and footer,
- * not just the content panel.
+ * not just the content panel. The image lives on a fixed layer taller than
+ * the viewport, which pans upward as the page scrolls (parallax), so it always
+ * fills the screen regardless of page length.
  */
+$bg-pan: 80vh; // how far the background travels over a full page scroll
+
 .wrapper {
     position: relative;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
+    isolation: isolate;
     min-height: 100vh;
+}
+
+.wrapper::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: calc(100vh + #{$bg-pan});
+    z-index: -1;
+    background-image: var(--page-bg, none);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    will-change: transform;
+}
+
+@keyframes bg-pan {
+    from { transform: translateY(0); }
+    to   { transform: translateY(-$bg-pan); }
+}
+
+@supports (animation-timeline: scroll()) {
+    .wrapper::before {
+        animation: bg-pan linear both;
+        animation-timeline: scroll(root);
+    }
 }
 
 .wrapper .container {
@@ -326,6 +355,12 @@ $panel-max-width: 80rem;
     padding: 0.75rem 1rem;
     font-size: 0.9em;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* Looping clips (converted from GIFs) size like inline images */
+.post-content video {
+  max-width: 100%;
+  height: auto;
 }
 
 /* 1. Limits the size, centers it, and sets the 16:9 shape */

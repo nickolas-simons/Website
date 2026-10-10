@@ -2,16 +2,16 @@
 layout: post
 title:  "Overtime"
 summary: "Unity,C#,Jam,Team, Programmer, Art"
-preview: /assets/overtime_preview.png
-image: /assets/overtime_preview.png
-background: /assets/overtime1.png
+preview: /assets/overtime_preview.webp
+image: /assets/overtime_preview_og.jpg
+background: /assets/overtime1.webp
 order: 4
 location: "Personal"
 itchio_embed: 4823366
 itchio_url: "https://gfwozniak.itch.io/overtime"
 ---
 
-![Title Image](/assets/overtime_banner.png)
+![Title Image](/assets/overtime_banner.webp)
 
 **Overview:**
 Submission for the 4 day 2026 GMTK Jam. You play as a boss secretly rewinding their subordinates clocks so that they stay at work and work overtime.
@@ -46,8 +46,8 @@ Submission for the 4 day 2026 GMTK Jam. You play as a boss secretly rewinding th
 
 **Gallery:**
 
-![Overtime screenshot 3](/assets/overtime4.png)
+![Overtime screenshot 3](/assets/overtime4.webp)
 
-![Overtime screenshot 1](/assets/overtime2.png)
+![Overtime screenshot 1](/assets/overtime2.webp)
 
-![Overtime screenshot 4](/assets/overtime3.png)
+![Overtime screenshot 4](/assets/overtime3.webp)

@@ -2,14 +2,14 @@
 layout: post
 title:  "Card Battler"
 summary: "UE5,C++,Team,Programmer"
-preview: /assets/405_preview.png
-image: /assets/405_preview.png
-background: /assets/405_background.png
+preview: /assets/405_preview.webp
+image: /assets/405_preview_og.jpg
+background: /assets/405_background.webp
 order: 3
 location: "Class"
 ---
 
-![Title Image](/assets/405_TitleCard.png)
+![Title Image](/assets/405_TitleCard.webp)
 
 **Overview:**
 A Sci-Fi card battler roguelike with mechanics influenced by Slay the Spire, Magic the Gathering, and Darkest Dungeon. Developed in a team of 6 for GSD405 : Intro To Game Development Process
@@ -27,22 +27,22 @@ A Sci-Fi card battler roguelike with mechanics influenced by Slay the Spire, Mag
 **Highlighted Contributions:**
 - Developed core turn-based card combat.
 
-![Turn-Based Combat Loop](/assets/405gif1.gif)
+<video src="/assets/405gif1.mp4" autoplay loop muted playsinline aria-label="Turn-Based Combat Loop"></video>
 
 - Implemented lightweight ability and effect system inspired by Epic's Gameplay Ability System.
 - Developed card type and resource restriction systems.
    - Item abilities have minimum resource requirements.
 
-![Ability and Resource System](/assets/405gif3.gif)
+<video src="/assets/405gif3.mp4" autoplay loop muted playsinline aria-label="Ability and Resource System"></video>
 
 - Created a data-driven tool enabling card assets to be generated from design spreadsheets.
 - Inventory and card/item drag and drop UI scripting.
 
-![System Loop Diagram](/assets/405_Loop.png)
+![System Loop Diagram](/assets/405_Loop.webp)
 
-![Card System Design Loop Overview](/assets/405_CardSystemDesignLoop3.png)
+![Card System Design Loop Overview](/assets/405_CardSystemDesignLoop3.webp)
 
-![Ability and Resource System](/assets/405gif2.gif)
+<video src="/assets/405gif2.mp4" autoplay loop muted playsinline aria-label="Ability and Resource System"></video>
 
 **Gallery:**
 

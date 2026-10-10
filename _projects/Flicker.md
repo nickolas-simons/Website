@@ -2,16 +2,16 @@
 layout: post
 title:  "Flicker"
 summary: "UE5,C++,Jam,Solo"
-preview: /assets/flicker_preview.png
-image: /assets/flicker_preview.png
-background: /assets/flicker2.png
+preview: /assets/flicker_preview.webp
+image: /assets/flicker_preview_og.jpg
+background: /assets/flicker2.webp
 order: 5
 location: "Personal"
 itchio_embed: 3985332
 itchio_url: https://nickolas-simons.itch.io/flicker
 ---
 
-![Title Image](/assets/flicker_banner.png)
+![Title Image](/assets/flicker_banner.webp)
 
 **Overview:**
 Submission for the 7 day 2025 Epic Megajam. Entered for the 'One Man Army' and 'Use It or Lose It' special modifiers.
@@ -40,11 +40,11 @@ Submission for the 7 day 2025 Epic Megajam. Entered for the 'One Man Army' and '
 
 **Gallery:**
 
-![Flicker screenshot 1](/assets/flicker1.png)
+![Flicker screenshot 1](/assets/flicker1.webp)
 
-![Flicker screenshot 4](/assets/flicker4.png)
+![Flicker screenshot 4](/assets/flicker4.webp)
 
-![Flicker screenshot 3](/assets/flicker3.png)
+![Flicker screenshot 3](/assets/flicker3.webp)
 
 <div class="video-max-wrapper" style="width: 100%; max-width: 800px; margin: 0 auto; aspect-ratio: 16 / 9;">
   <iframe 

@@ -2,14 +2,14 @@
 layout: post
 title:  "Master Dancer"
 summary: "UE5,C++,Team,Programmer"
-preview: /assets/md_preview.png
-image: /assets/md_preview.png
+preview: /assets/md_preview.webp
+image: /assets/md_preview_og.jpg
 location: "stu/dio"
-background: /assets/md_background.png
+background: /assets/md_background.webp
 order: 1
 ---
 
-![Title Image](/assets/MD_TitleCard.png)
+![Title Image](/assets/MD_TitleCard.webp)
 
 **Overview:**
 In Master Dancer, you meet the famous dancer Loïe Fuller, the first to integrate technology into modern dance. As a player, you engage in action games to learn her movement principles and, guided by Virtual Loïe, explore her world. You will use modern VR technology to create your own unique dance, becoming a Master Dancer yourself!
@@ -17,7 +17,7 @@ In Master Dancer, you meet the famous dancer Loïe Fuller, the first to integrat
 Project operating through stu/dio-a student led work-for-hire game development studio at the University of Illinois. Project funded by the Center of Innovation Technology and Learning and sponsored by Music Director and Co-Director of Undergraduate Education John Toenjes.  
 [learn more](https://news.illinois.edu/illinois-dance-professor-creates-virtual-reality-dance-game-about-modern-dance-pioneer-loie-fuller/ "learn more")
 
-![Rhythm Minigame System Overview](/assets/md_gif3.gif)
+<video src="/assets/md_gif3.mp4" autoplay loop muted playsinline aria-label="Rhythm Minigame System Overview"></video>
 
 **Platform/Engine:** Unreal Engine 5 for PCVR platforms
 
@@ -40,12 +40,12 @@ Project operating through stu/dio-a student led work-for-hire game development s
 
 **Highlighted Contributions:**
 
-![Starmaker Minigame System](/assets/md_gif4.gif)
+<video src="/assets/md_gif4.mp4" autoplay loop muted playsinline aria-label="Starmaker Minigame System"></video>
 - **Starmaker Minigame**
    - A game focused on strong core movement, where the player hits stars into the sky in time with the music in order to make a constellation
    - Developed data-driven tooling for designers to author new levels and constellations
 
-![Music Roundabout Minigame System](/assets/md_gif.gif)
+<video src="/assets/md_gif.mp4" autoplay loop muted playsinline aria-label="Music Roundabout Minigame System"></video>
 - **Music Roundabout Minigame**
    - A game focused on gentle, precise music, where the player must gently activate notes according to music progression.
    - Utilizes Quartz and Meta Sounds for quantization of music timing.
@@ -55,12 +55,12 @@ Project operating through stu/dio-a student led work-for-hire game development s
    - A dance visualization game where the player creates a sculpture using the movement principles of the first two games.
    - Uses Niagra to draw ribbons and particles along the arcs created by the player. Visualization will change based on the player's speed, consistency, and movement principle showcased.
 
-![Dialogue Subtitle System](/assets/vr_subtitle.gif)
+<video src="/assets/vr_subtitle.mp4" autoplay loop muted playsinline aria-label="Dialogue Subtitle System"></video>
 - **Dialogue Subtitle System**
    - Inspired by Half-Life Alyx, implemented system for tracking and managing dialogue subtitles to their sources within 3D space.
    - Developed for both Master Dancer and VRchaeology.
 
-![Stereoscope Based Level Streaming System](/assets/md_gif2.gif)
+<video src="/assets/md_gif2.mp4" autoplay loop muted playsinline aria-label="Stereoscope Based Level Streaming System"></video>
 - **Stereoscope Based Level Streaming**
    - Developed a stereoscope and card system to provide a diagetic and seamless interface for the player to load levels, using async sublevel streaming.
 
@@ -71,10 +71,10 @@ Project operating through stu/dio-a student led work-for-hire game development s
 
 **Gallery:**
 
-![MD Sizzle 1](/assets/MD_Sizzle1.png)
+![MD Sizzle 1](/assets/MD_Sizzle1.webp)
 
-![MD Sizzle 2](/assets/MD_Sizzle2.png)
+![MD Sizzle 2](/assets/MD_Sizzle2.webp)
 
-![MD Sizzle 3](/assets/MD_Sizzle3.png)
+![MD Sizzle 3](/assets/MD_Sizzle3.webp)
 
-![MD Sizzle 4](/assets/MD_Sizzle4.png)
+![MD Sizzle 4](/assets/MD_Sizzle4.webp)

@@ -8,14 +8,14 @@ Here is a sample of what a portfolio might look like with this theme: [https://g
 
 1. If you do not have a GitHub account yet, create one and login with it
 2. From the [gamingportfolio/template](gamingportfolio/template) page on GitHub, select "Use this template" and click "Create a new repository":
-   ![Use this template](_docs/1.png)
+   ![Use this template](_docs/1.webp)
 3. From this page, keep the owner either as your GitHub username (or if you have an organization you want to use, select the organization). The repo name should be named `githubname.github.io`. For example, if I'm making it for the `gamingportfolio` organization, I would use `gamingportfolio.github.io`. Make sure this repo is ***public*** (otherwise, you will need a paid/pro account to host on GitHub pages).
-   ![Repository name](_docs/2.png)
+   ![Repository name](_docs/2.webp)
 4. After a few moments, it will create your copy of the template
 5. Click on the `_config.yml` file listed in the root of the repository:
-   ![_config.yml](_docs/3.png)
+   ![_config.yml](_docs/3.webp)
 6. From this page, click on the "Edit this file" button on the right, above the file:
-   ![Edit this file](_docs/4.png)
+   ![Edit this file](_docs/4.webp)
 7. This file contains some basic configuration settings for your website. You should change the following:
    * `title:` - Put your name here
    * `email:` - Put the email address to contact you
@@ -26,7 +26,7 @@ Here is a sample of what a portfolio might look like with this theme: [https://g
    * `twitter_username:` - (Optional). If you want to link to your Twitter account, you can do that with this property. Alternatively, remove this line if you do not want it.
    * `footer_text:` - The default text just gives attribution to this theme, but you can change it to add whatever additional items you want
 8. Click on the "Commit changes" button at the bottom of your page:
-   ![Commit changes](_docs/5.png)
+   ![Commit changes](_docs/5.webp)
 9. 1-2 minutes after committing your change, the page will go live at [https://githubname.github.io](https://githubname.github.io).
 10. Once your site is live, you can keep making changes! Note that in many cases, after making your changes you may have to wait 1-2 minutes and then "refresh" the page in your browser to see the updates.
 
@@ -36,7 +36,7 @@ Almost all text content on the portfolio site uses Markdown. If you've never edi
 
 ## Images
 
-The header image in `assets/header.png` appears at the top of each page. The recommended size of this is  500x150.
+The header image in `assets/header.webp` appears at the top of each page. The recommended size of this is  500x150.
 
 For each post (which corresponds to a game or other item on your portfolio), you should make a preview image that's 300x300, and put this image in the `assets` folder.
 

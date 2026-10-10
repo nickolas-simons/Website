@@ -2,14 +2,14 @@
 layout: post
 title:  "Action Game"
 summary: "UE5,C++,Solo,Multiplayer"
-preview: /assets/Untitled_preview.png
-image: /assets/Untitled_preview.png
+preview: /assets/Untitled_preview.webp
+image: /assets/Untitled_preview_og.jpg
 background: "/assets/background.avif"
 location: "Personal"
 order: 4
 ---
 
-![Title Image](/assets/Untiled_TitleImage.png)
+![Title Image](/assets/Untiled_TitleImage.webp)
 
 **Overview:**
 A solo personal project designed to deepen familiarity with Epic's Gameplay Ability System, UE5's new animation tools/framework, and the procedural content generation framework. This is intended to eventually be a multiplayer roguelike, but scope is large enough I plan to only focus on multiplayer features for now.
@@ -25,9 +25,9 @@ A solo personal project designed to deepen familiarity with Epic's Gameplay Abil
    - Implemented a system for randomly generating tile partitions populated using PCG framework
    - Currently only server authoritative, but plan to add client prediction using fixed seeding
 
-![Environment Partition Tile Generation](/assets/chunk_loading_graphic.png)
+![Environment Partition Tile Generation](/assets/chunk_loading_graphic.webp)
 
-![Environment Partition Replication Test](/assets/Untiled_ReplicationTest.gif)
+<video src="/assets/Untiled_ReplicationTest.mp4" autoplay loop muted playsinline aria-label="Environment Partition Replication Test"></video>
 
 - **Ability and Attack Tracing System**
    - Developed targeting framework for async traces to interface with GAS targeting system
@@ -43,7 +43,7 @@ A solo personal project designed to deepen familiarity with Epic's Gameplay Abil
    - Based on GASP update, using motion matching and mover component to driven animation
    - Not currently integrated with mouse model
 
-![Hitbox and Animation Test](/assets/Untiled_AnimTest.gif)
+<video src="/assets/Untiled_AnimTest.mp4" autoplay loop muted playsinline aria-label="Hitbox and Animation Test"></video>
 
 **Next Steps:**
 - **Matchmaking and online services**
