@@ -22,7 +22,7 @@ Jaywalk Justice puts you behind the wheel with one simple objective: hit the str
 {% if page.itchio_embed %}
 <div class="itch-embed">
   <iframe frameborder="0" src="https://itch.io/embed/{{ page.itchio_embed }}?bg_color=000000&amp;fg_color=feb925&amp;link_color=ffffff&amp;border_color=ff2929&amp;linkback=true" width="720" height="167">
-    <a href="{{ page.itchio_url }}">Recycool by nsimons</a>
+    <a href="{{ page.itchio_url }}">Jaywalk Justice by nsimons</a>
   </iframe>
 </div>
 {% endif %}
@@ -38,4 +38,18 @@ Jaywalk Justice puts you behind the wheel with one simple objective: hit the str
 * **Design:** Poorna Balagi
 * **Art:** Ainsley Mendenhall, Tengxiang Yang
 * **Tech Art:** Yanjun Ding, Qiao Xue
+
+### Gallery
+
+<div class="video-max-wrapper" style="width: 100%; max-width: 800px; margin: 0 auto; aspect-ratio: 16 / 9;">
+  <iframe 
+    src="https://www.youtube.com/embed/f0ku4DxZyS0" 
+    title="Jaywalk Justice Gameplay" 
+    frameborder="0" 
+    allow="web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen=""
+    style="width: 100%; height: 100%; display: block;">
+  </iframe>
+</div>
 
