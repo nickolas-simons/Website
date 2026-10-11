@@ -36,7 +36,7 @@ Almost all text content on the portfolio site uses Markdown. If you've never edi
 
 ## Images
 
-The header image in `assets/header.webp` appears at the top of each page. The recommended size of this is  500x150.
+The header image in `assets/site/header.webp` appears at the top of each page. The recommended size of this is  500x150.
 
 For each post (which corresponds to a game or other item on your portfolio), you should make a preview image that's 300x300, and put this image in the `assets` folder.
 

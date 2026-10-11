@@ -10,7 +10,9 @@
       <div class="container">
         {% include header.html %}
 
-        {% include info.html %}
+        {% unless page.directory %}
+          {% include info.html %}
+        {% endunless %}
 
         {{ content }}
 

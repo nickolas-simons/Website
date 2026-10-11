@@ -4,12 +4,38 @@ email: nickolassimons367@gmail.com
 description: > # keep this and put description below
   UU MEAE Student, UIUC Computer Science Graduate, and Software Engineer
 url: "https://nicksimons.games" # the base hostname & protocol for your site
-image: /assets/portrait_og.jpg
+image: /assets/site/portrait.webp
 linkedin_url: "https://www.linkedin.com/in/nickolas-simons/"
 github_username: nickolas-simons
 bsky_username: nick-simons
 itchio_url: "https://nsimons.itch.io/"
 footer_text: "This site uses <a href='https://github.com/gamingportfolio/urban-theme-portfolio'>urban-theme (portfolio)</a>."
+
+# How many projects the home page shows before the "All Projects" card.
+# Remove this line to show every project on the home page.
+home_project_count: 8
+
+# Project `summary:` entries that match one of these exactly (case-sensitive)
+# get the highlighted "language" pill style on the front page.
+language_tokens:
+  - "UE5"
+  - "UE4"
+  - "Unity"
+  - "Unreal Engine"
+  - "Haskell"
+  - "Python"
+  - "C++"
+  - "C#"
+  - "JavaScript"
+  - "PCVR"
+  - "Meta Quest"
+  - "Windows"
+  - "Web"
+  - "Android"
+  - "Code"
+  - "GitHub"
+  - "Perforce"
+  - "Mobile"
 
 # Build settings
 markdown: kramdown

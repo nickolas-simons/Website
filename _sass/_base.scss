@@ -1,50 +1,31 @@
 /**
- * Design tokens — "engine viewport" theme (modernized)
+ * Fonts (colors live in _theme.scss)
  */
 :root {
-    --bg: #0f1216;
-    --surface: #161a21;
-    --surface-hover: #1d222b;
-    --border: #2e343f;
-    --text: #eef0f3;
-    --text-dim: #b6c0cc;
-    --accent: #61edff;
-    --accent-warm: #ff9f5a;
-    --font-display: 'Manufacturing Consent', 'Cinzel', 'Times New Roman', serif;
+    --font-display: 'Grenze Gotisch', 'Times New Roman', serif;
     --font-body: 'Inter', 'Helvetica Neue', sans-serif;
 }
 
 html {
-    background: var(--bg);
+    background: $bg;
 }
 
 body {
     margin: 0;
     font-family: var(--font-body);
-    color: var(--text-dim);
-    background-color: var(--bg);
-    background-image:
-        linear-gradient(var(--border) 1px, transparent 1px),
-        linear-gradient(90deg, var(--border) 1px, transparent 1px);
-    background-size: 48px 48px;
-    background-attachment: fixed;
-    background-position: -1px -1px;
+    color: $text-muted;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    color: var(--text);
+    font-weight: 500; // Milligram's 300 is too thin for Grenze Gotisch
+    color: $text-heading;
     letter-spacing: -.02em;
 }
 
 a {
-    color: var(--accent);
+    color: $accent-alt;
     transition: color .2s ease;
-}
-
-a:focus,
-a:hover {
-    color: var(--accent-warm);
 }
 
 /**
@@ -58,8 +39,10 @@ a:hover {
         height: 16px;
         vertical-align: middle;
 
-        path {
-            fill: var(--text-dim);
+        path,
+        rect {
+            fill: $text-muted;
+            transition: fill .2s ease;
         }
     }
 }

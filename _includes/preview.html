@@ -1,8 +1,20 @@
-{% if site.projects %}
-  {% assign sorted_posts = site.projects | sort: 'title' | sort: 'order' %}
+{% comment %}
+  Project card grid.
+    limit=N             show only the first N projects (sorted by order, then title)
+    directory_card=true append the directory page(s) (front matter `directory: true`) after them
+  Directory pages are never part of the project pool itself.
+{% endcomment %}
+{% assign pool = site.projects | where_exp: "p", "p.directory != true" | sort: 'title' | sort: 'order' %}
+{% if include.limit %}
+  {% assign pool = pool | slice: 0, include.limit %}
 {% endif %}
-{% for post in sorted_posts %}
-    {% cycle 'add row' : '<div class="row">', '', '' %}
+{% if include.directory_card %}
+  {% assign directories = site.projects | where: "directory", true %}
+  {% assign pool = pool | concat: directories %}
+{% endif %}
+{% for post in pool %}
+    {% assign col = forloop.index0 | modulo: 3 %}
+    {% if col == 0 %}<div class="row">{% endif %}
         <div class="column column-33">
             <div class="preview-panel">
                 <a href="{{ post.url | prepend: site.baseurl }}" class="preview-image-wrap">
@@ -15,9 +27,8 @@
                     </div>
                     <div class="post-summary">
                         {% assign summary_tokens = post.summary | split: "," %}
-                        {% assign language_tokens = "UE5,UE4,Unity,Unreal Engine,Haskell,Python,C++,C#,JavaScript" | split: "," %}
                         {% for token in summary_tokens %}
-                            {% if language_tokens contains token %}
+                            {% if site.language_tokens contains token %}
                                 <span class="summary-token summary-token--language">{{ token }}</span>
                             {% else %}
                                 <span class="summary-token">{{ token }}</span>
@@ -27,6 +38,5 @@
                 </a>
            </div>
         </div>
-{% cycle 'end row' : '', '', '</div>' %}
+    {% if col == 2 or forloop.last %}</div>{% endif %}
 {% endfor %}
-{% cycle 'end row' : '', '</div>', '</div>' %}

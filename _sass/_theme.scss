@@ -1,0 +1,27 @@
+/**
+ * Site color palette: the single place to change the theme.
+ *
+ * Every color on the site is defined here. Other stylesheets only reference
+ * these variables (directly, or through Milligram's $color-* aliases in
+ * milligram/_Color.scss), and hover/transparency variants are derived from
+ * them automatically.
+ */
+
+// Backgrounds
+$bg:            #0a0c10;  // page background; text on accent-filled buttons
+$surface:       #161a21;  // panels, code blocks
+$border:        #2e343f;  // panel borders, dividers, form inputs
+$border-strong: #3a4150;  // table rules
+
+// Text
+$text-heading:  #eef0f3;  // headings, site title
+$text:          #dbd4fa;  // text inside panels
+$text-muted:    #b6c0cc;  // text outside panels, social icons
+
+// Accents
+$accent:        #90c0ff;  // links, buttons, location badges, hover borders
+$accent-alt:    #ffffff;  // language tags
+$highlight:     #ffffff;  // hover: location pills, project card glow, header/site-info links
+
+// Effects
+$shadow:        #000;     // drop shadows, preview title/tag gradients

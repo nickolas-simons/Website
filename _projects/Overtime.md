@@ -1,37 +1,37 @@
 ---
 layout: post
 title:  "Overtime"
-summary: "Unity,C#,Jam,Team, Programmer, Art"
-preview: /assets/overtime_preview.webp
-image: /assets/overtime_preview_og.jpg
-background: /assets/overtime1.webp
-order: 4
+summary: "Web,Unity,C#,Jam,Team, Programmer, Art"
+preview: /assets/overtime/overtime_preview.webp
+image: /assets/overtime/overtime_preview.webp
+background: /assets/overtime/overtime1.webp
+order: 5
 location: "Personal"
 itchio_embed: 4823366
 itchio_url: "https://gfwozniak.itch.io/overtime"
 ---
 
-![Title Image](/assets/overtime_banner.webp)
+![Title Image](/assets/overtime/overtime_banner.webp)
 
-**Overview:**
+### Overview
 Submission for the 4 day 2026 GMTK Jam. You play as a boss secretly rewinding their subordinates clocks so that they stay at work and work overtime.
 
 **Theme:** "Countdown"
 
 **Assets:** Some audio assets come from weloveindies, all other game assets made by me during the jam.
 
-**Development Details:**
+### Development Details
    - **Platform/Engine:** Developed on Unity5 for Web/Windows
-   - **Time:** 4 days
+   - **Time:** July 2026, 4 days
 
-**Credits:**
-* gwozniak
-* giovza
-* nsimons (me)
-* pajamasoft
+### Credits
+* Giovanni Zavalza - Programming
+* Gabe Wozniak - Programming + Sound Design + Production
+* Nick Simons - Programming + 3D Environment Artwork
+* Nathan "pajamasoft" Cook - 3D Character Artwork
 
 
-**Notable Contributions:**
+### Notable Contributions
 - Created all environment art, and UI animations.
 - Some scripting for hooking up linear content to gameplay.
 - Game feel elements like squash and stretch on player interaction.
@@ -43,11 +43,3 @@ Submission for the 4 day 2026 GMTK Jam. You play as a boss secretly rewinding th
   </iframe>
 </div>
 {% endif %}
-
-**Gallery:**
-
-![Overtime screenshot 3](/assets/overtime4.webp)
-
-![Overtime screenshot 1](/assets/overtime2.webp)
-
-![Overtime screenshot 4](/assets/overtime3.webp)
