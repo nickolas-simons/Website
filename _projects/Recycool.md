@@ -39,3 +39,17 @@ Recycool is a serious game built for teaching kids (and adults) how to recycle (
 * **Art:** Isaac Song, Om Soni, Xiaoxuan Han, Zhaoyi Sun
 * **Tech Art:** Isaac Song, Xiaoxuan Han
 
+### Gallery
+
+<div class="video-max-wrapper" style="width: 100%; max-width: 800px; margin: 0 auto; aspect-ratio: 16 / 9;">
+  <iframe 
+    src="https://www.youtube.com/embed/CDXmyeDu-_c" 
+    title="Recycool Gameplay" 
+    frameborder="0" 
+    allow="web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen=""
+    style="width: 100%; height: 100%; display: block;">
+  </iframe>
+</div>
+

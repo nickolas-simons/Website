@@ -2,6 +2,7 @@
 layout: post
 title: "Recycool Technical Design Document"
 permalink: /projects/recycool/techdoc/
+preview: /assets/recycool/recycool_preview.webp
 background: /assets/recycool/recycool_background.webp
 ---
 
