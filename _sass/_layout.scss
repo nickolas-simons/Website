@@ -62,7 +62,9 @@ $bg-pan: 80vh; // how far the background travels over a full page scroll
     right: 0;
     height: calc(100vh + #{$bg-pan});
     z-index: -1;
-    background-image: var(--page-bg, none);
+    // Full image on top; a tiny blurred placeholder (_data/bg_placeholders.yml)
+    // underneath shows until it loads
+    background-image: var(--page-bg, none), var(--page-bg-placeholder, none);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

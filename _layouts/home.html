@@ -5,7 +5,8 @@
 
   <body>
 
-    <main class="wrapper"{% if page.background %} style="--page-bg: url('{{ page.background | prepend: site.baseurl }}');"{% endif %}>
+    {% assign bg_placeholder = site.data.bg_placeholders[page.background] %}
+    <main class="wrapper"{% if page.background %} style="--page-bg: url('{{ page.background | prepend: site.baseurl }}');{% if bg_placeholder %} --page-bg-placeholder: url('{{ bg_placeholder }}');{% endif %}"{% endif %}>
 
       <div class="container">
         {% include header.html %}
