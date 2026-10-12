@@ -20,6 +20,14 @@ Submission for the 7 day 2025 Epic Megajam. Entered for the 'One Man Army' and '
 
 **Assets:** Some audio assets come from weloveindies, all other game assets made by me during the jam.
 
+{% if page.itchio_embed %}
+<div class="itch-embed">
+  <iframe frameborder="0" src="https://itch.io/embed/{{ page.itchio_embed }}?bg_color=444150&amp;fg_color=ffcf7b&amp;link_color=fa705b&amp;border_color=333333;linkback=true" width="720" height="167">
+    <a href="{{ page.itchio_url }}">Flicker by nickolas-simons</a>
+  </iframe>
+</div>
+{% endif %}
+
 ### Development Details
    - **Platform/Engine:** Developed on UE5 for PC
    - **Time:** Oct 2025, 7 days
@@ -29,14 +37,6 @@ Submission for the 7 day 2025 Epic Megajam. Entered for the 'One Man Army' and '
 - Only a single 512x512 RGBA texture is sampled during the game, using a combination of gradient texturing and procedural or noise based post-processing effects (sampled from the texture) for most shaders.
 - Animation for character baked from new locomotor plugin introduced in UE 5.6 (excluding additive layers).
 - Fire effects are created using a blend based upon sine of a signed distance field multiplied with the time since burn activation.
-
-{% if page.itchio_embed %}
-<div class="itch-embed">
-  <iframe frameborder="0" src="https://itch.io/embed/{{ page.itchio_embed }}?bg_color=444150&amp;fg_color=ffcf7b&amp;link_color=fa705b&amp;border_color=333333;linkback=true" width="720" height="167">
-    <a href="{{ page.itchio_url }}">Flicker by nickolas-simons</a>
-  </iframe>
-</div>
-{% endif %}
 
 ### Gallery
 
