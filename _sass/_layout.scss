@@ -462,6 +462,9 @@ a.pill-button {
     img {
         display: block;
         width: 100%;
+        // Force a uniform square card regardless of the source image's proportions
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
     }
 }
 
